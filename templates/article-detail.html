@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }} - Flask Blog{% endblock %}
+{% block content %}
+  <p class="back-link"><a href="{{ url_for('home') }}">Back to all articles</a></p>
+  <article class="article">
+    <h1>{{ article.title }}</h1>
+    <p class="article-content">{{ article.content }}</p>
+  </article>
+{% endblock %}

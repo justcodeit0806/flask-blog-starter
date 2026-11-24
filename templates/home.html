@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Home - Flask Blog{% endblock %}
+{% block content %}
+  <h1>{{ heading }}</h1>
+  <p>Read articles and share your ideas.</p>
+  <section class="articles-section" aria-label="Articles">
+    {% for article in articles %}
+      <article class="article">
+        <h2><a href="{{ url_for('article_detail', article_id=article.id) }}">{{ article.title }}</a></h2>
+        <p>{{ article.content }}</p>
+      </article>
+    {% else %}
+      <p class="empty-state">No articles yet.</p>
+    {% endfor %}
+  </section>
+{% endblock %}
