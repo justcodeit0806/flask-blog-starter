@@ -62,11 +62,11 @@ and author permissions. It is still being produced. Chapters 1–7 form the free
 portion; Chapter 8 onward belongs to the paid portion. Paid enrollment is closed.
 The finished target app already exists; it does not mean all lessons are finished.
 
-**[Start with the free Flask introduction](https://justcodeit.net/en/courses/flask-studio2-pilot-b16f868e)**
+**[Watch free Chapters 1–7](https://justcodeit.net/en/courses/flask-studio2-preview)**
 
-That link opens the currently released Chapter 1 lesson. More free lessons are
-being prepared for publication. This repository does not offer a checkout or a
-complete-project download.
+The seven chapters include English captions and illustrated PDF guides, with no
+sign-in needed. This repository does not offer checkout or a complete-project
+download.
 
 ## Code use
 
